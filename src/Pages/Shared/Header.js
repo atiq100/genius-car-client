@@ -75,7 +75,7 @@ const Header = () => {
             
                 user?.email ?
                 <>
-                <Link onClick={handleLogout} to='/'
+                <Link onClick={handleLogout} 
               className="font-medium tracking-wide text-gray-600 transition-colors duration-200 hover:text-teal-accent-400">Logout</Link>
                 </>
                 :
