@@ -23,6 +23,7 @@ const AuthProvider = ({children}) => {
     }
 
     const logout =()=>{
+        localStorage.removeItem('token');
         setLoadin(true)
         return signOut(auth)
     }
